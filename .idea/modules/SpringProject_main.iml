@@ -9,5 +9,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-gradle-plugin:2.0.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-loader-tools:2.0.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: io.spring.gradle:dependency-management-plugin:1.0.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-compress:1.14" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.0.8.RELEASE" level="project" />
   </component>
 </module>

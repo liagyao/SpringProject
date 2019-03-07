@@ -1,14 +1,24 @@
 group 'SpringProject'
 version '1.0-SNAPSHOT'
 
-apply plugin: 'java'
+// 插件
+apply plugin: 'java' //java 插件
 
+//JDk版本
 sourceCompatibility = 1.8
 
+//4 仓库地址
 repositories {
+    //本地仓库，地址是：D:/application/without/apache-maven-3.3.9/repo
+    mavenLocal()
+    //阿里镜像
+    maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+    //中央仓库
     mavenCentral()
 }
 
+
+
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile("org.springframework.boot:spring-boot-gradle-plugin:2.0.4.RELEASE")
 }
