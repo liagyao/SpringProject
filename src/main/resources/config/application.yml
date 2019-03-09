@@ -72,7 +72,7 @@ log:
 token:
   expire:
     seconds: 86400
-#server:
+server:
 #  servlet:
 #    context-path: /reportPortal
   port: 8080

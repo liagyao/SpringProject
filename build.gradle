@@ -12,7 +12,7 @@ repositories {
     //本地仓库，地址是：D:/application/without/apache-maven-3.3.9/repo
     //mavenLocal()
     //阿里镜像
-    maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+    //maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
     //中央仓库
     mavenCentral()
 }
@@ -47,4 +47,7 @@ dependencies {
     compile ("dom4j:dom4j:1.6.1")
     compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.1'
     compile ("org.quartz-scheduler:quartz:2.3.0")
+    //org.thymeleaf
+    compile "org.springframework.boot:spring-boot-starter-thymeleaf:2.0.4.RELEASE"
+
 }
